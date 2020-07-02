@@ -9,7 +9,7 @@ li {
 .header {
   background-color: #ff3838;
   color: #fff;
-  height: 90px;
+  height: 100px;
   animation-name: header;
   animation-duration: 5s;
 }
