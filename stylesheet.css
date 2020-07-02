@@ -98,4 +98,12 @@ input, textarea {
   float: right;
 }
 
+@media (max-width: 670px) {
+  
+.lex-list{
+  flex-direction: colomn;
+  }
+.flex-list {
+  margin: 10px auto;
+  }
 
