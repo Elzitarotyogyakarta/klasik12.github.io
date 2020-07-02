@@ -110,7 +110,7 @@ input, textarea {
 
 @media (max-width: 670px) {
   
-.lex-list{
+.flex-list{
   flex-direction: colomn;
 }
 .flex-list {
