@@ -10,6 +10,13 @@ li {
   background-color: #ff3838;
   color: #fff;
   height: 90px;
+  animation-name: header;
+  animation-duration: 5s;
+}
+
+@keyframe header {
+  from {background-color: #ff3838}
+  to {background-color: #e17055}
 }
 
 .header-logo {
@@ -86,6 +93,8 @@ input, textarea {
   color: #fff;
   height: 120px;
   padding: 40px;
+  animation-name: header;
+  animation-duration: 5s;
 }
 
 .footer-logo {
@@ -103,8 +112,9 @@ input, textarea {
   
 .lex-list{
   flex-direction: colomn;
-  }
+}
 .flex-list {
   margin: 10px auto;
-  }
+}
+}
 
