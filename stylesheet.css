@@ -1,10 +1,10 @@
 body {
   font-family: "Garamond";
-  animation-name: body;
+  animation-name: contoh;
   animation-duration: 10s;
 }
 
-@keyframes body {
+@keyframes contoh {
   from {background-color: white}
   to {background-color: pink;}
 }
