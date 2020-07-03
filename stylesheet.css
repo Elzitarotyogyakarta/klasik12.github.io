@@ -16,6 +16,7 @@ li {
 @keyframes header {
   from {background-color: #ff3838;}
   to {background-color: #e17055;}
+}
 
 .header-logo {
   float: center;
@@ -92,8 +93,15 @@ input, textarea {
   color: #fff;
   height: 120px;
   padding: 40px;
+  animation-name: header;
+  animation-duration: 10s;
 }
 
+@keyframes header {
+  from {background-color: #ff3838;}
+  to {background-color: #e17055;}
+  }
+  
 .footer-logo {
   float: left;
   font-size: 32px;
