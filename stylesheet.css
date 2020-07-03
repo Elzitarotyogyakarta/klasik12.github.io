@@ -13,11 +13,9 @@ li {
   animation-name: header;
   animation-duration: 5s;
 }
-
-@keyframe header {
-  from {background-color: #ff3838}
-  to {background-color: #e17055}
-}
+@keyframes header {
+  from {background-color: #ff3838;}
+  to {background-color: #e17055;}
 
 .header-logo {
   float: center;
@@ -69,7 +67,8 @@ li {
 
 .contact-form {
   padding-top: 200px;
-  margin-top: 100px
+  margin: 100px 0;
+  
 }
 
 
