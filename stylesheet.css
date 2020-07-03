@@ -1,12 +1,5 @@
 body {
   font-family: "Garamond";
-  animation-name: contoh;
-  animation-duration: 10s;
-}
-
-@keyframes contoh {
-  from {background-color: white}
-  to {background-color: pink;}
 }
 
 li {
@@ -35,6 +28,14 @@ li {
 
 .main {
   padding: 100px 80px;
+  background-color: white;
+  animation-name: contoh;
+  animation-duration: 10s;
+}
+
+@keyframes contoh {
+  from {background-color: white;}
+  to {background-color: pink;}
 }
 
 .copy-container h1 {
