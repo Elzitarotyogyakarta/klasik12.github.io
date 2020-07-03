@@ -1,5 +1,12 @@
 body {
   font-family: "Garamond";
+  animation-name: body;
+  animation-duration: 10s;
+}
+
+@keyframes body {
+  from {background-color: white}
+  to {background-color: pink;}
 }
 
 li {
@@ -9,7 +16,7 @@ li {
 .header {
   background-color: #ff3838;
   color: #fff;
-  height: 120px;
+  height: 150px;
   
 }
 
