@@ -92,8 +92,6 @@ input, textarea {
   color: #fff;
   height: 120px;
   padding: 40px;
-  animation-name: header;
-  animation-duration: 5s;
 }
 
 .footer-logo {
