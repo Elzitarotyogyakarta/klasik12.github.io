@@ -11,7 +11,7 @@ li {
   color: #fff;
   height: 100px;
   animation-name: header;
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 @keyframes header {
   from {background-color: #ff3838;}
